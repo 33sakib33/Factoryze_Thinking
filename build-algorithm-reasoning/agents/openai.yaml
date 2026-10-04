@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Algorithm Reasoning"
+  short_description: "Design and verify algorithms before code"
+  default_prompt: "Use $build-algorithm-reasoning to help me define and verify my algorithm before implementation."

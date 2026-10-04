@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refine UI/UX Taste"
+  short_description: "Turn user taste into clear design rules"
+  default_prompt: "Use $refine-ui-ux-taste to define, refine, or review a clear UI and UX identity from my choices."

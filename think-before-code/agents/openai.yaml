@@ -1,0 +1,4 @@
+interface:
+  display_name: "Think Before Code"
+  short_description: "Require user-authored decisions before coding"
+  default_prompt: "Use $think-before-code to require my decisions without suggesting answers, and reply in simple, controlled language."
