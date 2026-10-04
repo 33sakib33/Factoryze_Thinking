@@ -22,7 +22,52 @@ The skills use simple, controlled English. They draw on ASD-STE100 principles wi
 
 Each skill is independent. Install or invoke only the skill needed for the current task.
 
-## Quick start with Codex
+## Install with the skills CLI
+
+The command is `npx skills add`, not `npx add skills`.
+
+Install interactively from GitHub:
+
+```bash
+npx skills add 33sakib33/Factoryze_Thinking
+```
+
+List the available skills without installing them:
+
+```bash
+npx skills add 33sakib33/Factoryze_Thinking --list
+```
+
+Install one skill for Codex:
+
+```bash
+npx skills add 33sakib33/Factoryze_Thinking \
+  --skill think-before-code \
+  --agent codex
+```
+
+Install all three skills for Codex, Claude Code, and OpenCode:
+
+```bash
+npx skills add 33sakib33/Factoryze_Thinking \
+  --skill '*' \
+  --agent codex \
+  --agent claude-code \
+  --agent opencode
+```
+
+Add `--global` to make the selected skills available across projects:
+
+```bash
+npx skills add 33sakib33/Factoryze_Thinking \
+  --skill '*' \
+  --agent codex \
+  --global
+```
+
+The commands above were tested against this repository. The CLI found all three skills and installed them for the selected agents. See the [`skills` CLI documentation](https://github.com/vercel-labs/skills#install-a-skill) for all supported agents and options.
+
+## Manual installation
 
 Clone this repository:
 
@@ -44,7 +89,7 @@ Then start a task with an explicit invocation:
 Use $think-before-code. Help me plan and build a personal expense tracker.
 ```
 
-See [Installation](./docs/installation.md) for project-level, user-level, and agent-neutral setup.
+See [Installation](./docs/installation.md) for additional project-level, user-level, and agent-neutral setup.
 
 ## Example invocations
 
