@@ -6,6 +6,7 @@ This is an initiative from [Factoryze](https://factoryze.tech/).
 
 Explainer video: [Video](https://youtu.be/NHWibrvv0E0)
 
+
 ## Why this exists
 
 AI can make software quickly. Speed does not guarantee clear requirements, sound reasoning, or a controlled project.
@@ -22,7 +23,7 @@ The skills use simple, controlled English. They draw on ASD-STE100 principles wi
 | [`refine-ui-ux-taste`](./refine-ui-ux-taste/) | Turn the user's visual and interaction preferences into checkable UI and UX rules. |
 | [`build-algorithm-reasoning`](./build-algorithm-reasoning/) | Require natural-language algorithm steps, correctness reasoning, complexity reasoning, and tests before implementation. |
 
-Each skill is independent. Install or invoke only the skill needed for the current task.
+Each skill is independent. Install or invoke only the skill needed for the current task. **More skills are coming, keep an eye on this repository**. 
 
 ## Install with the skills CLI
 
