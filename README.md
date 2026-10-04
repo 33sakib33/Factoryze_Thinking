@@ -4,6 +4,8 @@ Factoryze Thinking is a collection of learning-focused agent skills. The skills 
 
 This is an initiative from [Factoryze](https://factoryze.tech/).
 
+Explainer video: [Video](https://youtu.be/NHWibrvv0E0)
+
 ## Why this exists
 
 AI can make software quickly. Speed does not guarantee clear requirements, sound reasoning, or a controlled project.
